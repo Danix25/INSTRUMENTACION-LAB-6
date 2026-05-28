@@ -50,7 +50,7 @@ Se debe presionar el botón físico de Encendido/apagado ubicado en la parte der
 
 El modo de espera se utiliza para pausar la monitorización sin apagar el equipo. Aquí la pantalla estará apagada pero el indicador de energía seguirá activo. Para retornarlo a modo monitor, se debe girar la perilla de navegación o presionar cualquier tecla física del panel frontal y así el monitor daldrá inmediatamente del estado de espera y regresará de forma directa a la pantalla principal.
 
-5. Estado de demostración (Demo)
+4. Estado de demostración (Demo)
 
 En caso de que el monitor esté mostrando ondas simuladas pregrabadas (marcadas con la palabra DEMO en pantalla), se debe seguir el siguiente procedimiento:
 
