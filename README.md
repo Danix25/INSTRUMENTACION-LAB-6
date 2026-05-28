@@ -132,7 +132,14 @@ Desde el punto de vista metrológico, la tolerancia en condiciones de baja perfu
 En el caso del Mindray uMEC 100, se garantiza que, aun cuando el Pronk OxSim OX-1 reduzca drásticamente la amplitud de la onda pulsátil con el fin de simular un estado de choque hemodinámico, los algoritmos internos de filtrado digital serán capaces de aislar el ruido de manera eficiente, evitando comprometer o incrementar el error diagnóstico del sistema.
 
 # PARTE B
+En esta parte B se muestran los resultados obtenidos tras seguir el paso a paso de la guía de laboratorio.
 
+| Prueba | Límite              | Valor Simulado bpm | Valor Simulado SpO2 | Valor Medido bpm | Valor Medido SpO2 | Alarma Activa | Tiempo de Respuesta (s) | Error Absoluto SpO2 | Error Absoluto bpm | Error Porcentual SpO2 | Error Porcentual bpm |
+|--------|----------------------|--------------------|---------------------|------------------|-------------------|----------------|--------------------------|----------------------|--------------------|------------------------|----------------------|
+| 1 |  | 40  | 95 | 40  | 96 | No |  | 1 | 0 | 1% | 0 |
+| 2 | Inferior SpO₂ = 90% | 80  | 85 | 80  | 85 | Sí | 4,3 | 0 | 0 | 0% | 0 |
+| 3 | Superior SpO₂ = 97% |  | 99 |  | 99 | Sí | 3 | 0 |  | 0% |  |
+| 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 1 | 0 | 1% | 0 |
 
 # REFERENCIAS
 
