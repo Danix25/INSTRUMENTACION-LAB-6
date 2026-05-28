@@ -76,13 +76,26 @@ El OxSim OX-1 posee un bloque óptico activo (dedo de prueba) y a través de él
 
 Esta variable simula el porcentaje de hemoglobina que se encuentra unida de forma reversible al oxígeno en la sangre arterial del paciente, basado en la relación de absorción de luz roja (660 nm) e infrarroja (940 nm) a través del tejido hidratado. Aquí el simulador toma las dos longitudes de onda emitidas por el sensor del monitor de signos vitales y altera electrónicamente la cantidad de luz que devuelve al fotodetector del sensor, permitiendo simular valores de saturación fijos y precisos para evaluar alarma de hipoxia y la exactitud del monitor. Los puntos de simulación del OX-1 son 85%, 95%, 98% y 99%
 
+<div align="center">
+<img width="443" height="273" alt="image" src="https://github.com/user-attachments/assets/9c7901aa-dd15-4f57-b362-96baf3377f1b" />
+</div>
+
 2. Frecuencia de pulso (PR)/ frecuencia cardíaca (HR)
 
-..
+Este parámetro representa la cantidad de pulsaciones de la onda de presión arterial por minuto (bpm) causadas por la sístole ventricular izquierda del corazón, propagas hacia el lecho capilar periférico. Lo que hará el simulador será generar variaciones cíclicas en la intensidad de la luz que simula retornar al sensor del monitor, donde cada ciclco será un pulso arterial volumétrico y modificando el intervalo de tiempo entre estas variaciones el OX-1 simulará con precisión diferente estados de ritmo cardíaco para evaluar alarmas de bradicardia o taquicardia. Los puntos fijos de simulación son 40, 80 y 140 bpm
+
+<div align="center">
+<img width="436" height="273" alt="image" src="https://github.com/user-attachments/assets/731c2c1c-eb55-494b-80ab-0633e078c2e4" />
+</div>
 
 3. Índice de perfusión tisular (Modo de baja perfusión)
 
-..
+El parámetro del índice de perfusión es la relación entre el componente pulsátil de la sangre arterial y el componente estático de los tejidos. Hueso y sangre venosa en el sitio del sensor. Una perfusión normal tiene una señal AC robusta, mientras que una mala perfusión reduce el tamaño de la onda de pulso AC. El OX-1 en el modo de baja perfusión, reducirá la amplitud de la señal pulsátil a niveles críticamente bajos en comparación con el nivel estático, manteniendo la consistencia de la frecuencia y la saturación, la cual está ajustada por defecto a 99% y 80 bpm. Esto verificará la eficacia en los algoritmos de amplificación de señal y sensibilidad de filtrado en el sistema del monitor de signos vitales frente a un paciente con compromiso hemodinámico extremo.
+
+<div align="center">
+<img width="445" height="273" alt="image" src="https://github.com/user-attachments/assets/d63cff13-c441-43cc-aac2-1129d9b3db63" />
+</div>
+
 
 ¿Qué tipo de parámetros o variables fisiológicas pueden simularse con el
 Pronk OxSim OX-1? Explique cada uno.
