@@ -111,7 +111,7 @@ Es importante mencionar que el fabricante menciona que para valores inferiores a
 
 Las toelrancias de diseño electrónico del monitor de signos vitales establecen un margen sumamente estricto para este parámetros hemodinámico.
 
-- Error Máximo Permitido: **$\pm$2bpm** o **$\pm$2%**
+- Error Máximo Permitido: **$\pm$2bpm** o $\pm$2%
 
 Esto quiere decir que si el simulador entrega una frecuencia de 40 bpm, el monitor puede mostrar valores entre 38 y 42 bpm. Si simula una taquicardia de 140 bpm, el 2% equivale a $\pm$2.8bpm, por lo que si el monitor se encuentra dentro de la tolerancia va a registrar valores entre 137 y 143 bpm.
 
