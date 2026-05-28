@@ -102,8 +102,8 @@ Para poder obtener los errores máximos permitidos del equipo, se deben verifica
 
 1. Saturación Periférica de Oxigeno (SPO2): El error máximo permitido (EMP) para la saturación de oxígeno varía segun el tipo de tecnología integrada en el sensor configurado y el grupo aterio del paciente. De acuerdo al manual de Mindray menciona los siguientes (EMP) en el rango útil del 70% al 100%:
 
-- Pacientes adultos y pediátricos: **$\pm$2%**
-- Pacientes Neonatales: **$\pm$3%**
+- Pacientes adultos y pediátricos: **$\pm$ 2%**
+- Pacientes Neonatales: **$\pm$ 3%**
 
 Es importante mencionar que el fabricante menciona que para valores inferiores al 70%, declara la exactitud como "No especificada", lo que a nivel clínico se debe a que no está permitido por comités de ética médica someter a pacientes humanos a niveles de hipoxia tan extremos para calibrar o validar de forma absoluta las curvas ópticas.
 
@@ -111,7 +111,7 @@ Es importante mencionar que el fabricante menciona que para valores inferiores a
 
 Las toelrancias de diseño electrónico del monitor de signos vitales establecen un margen sumamente estricto para este parámetros hemodinámico.
 
-- Error Máximo Permitido: **$\pm$2bpm** o $\pm$2%
+- Error Máximo Permitido: **$\pm$ 2bpm** o **$\pm$ 2%**
 
 Esto quiere decir que si el simulador entrega una frecuencia de 40 bpm, el monitor puede mostrar valores entre 38 y 42 bpm. Si simula una taquicardia de 140 bpm, el 2% equivale a $\pm$2.8bpm, por lo que si el monitor se encuentra dentro de la tolerancia va a registrar valores entre 137 y 143 bpm.
 
