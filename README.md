@@ -175,7 +175,7 @@ Además de esto, en la onda fotopletismográfica se puede observar que la señal
 
 ## Prueba 2
 
-En la segunda prueba se configuró el monitor con un límite inferior de alarma de SpO₂ de 90%. Posteriormente, el simulador se ajustó a una frecuencia cardíaca de 80 bpm y una saturación de oxígeno de 85%. Luego, el equipo registró valores de 80 bpm y 85% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0.
+En la segunda prueba se configuró el monitor con un límite inferior de alarma de SpO₂ de 90%. Posteriormente, el simulador se ajustó a una frecuencia cardíaca de 80 bpm y una saturación de oxígeno de 85%. Luego, el equipo registró valores de 80 bpm y 85% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0, como se observa en la tabla.
 
 <div align="center">
 <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/ac340bd9-fa18-4b33-925d-68e8ecc576e1" />
@@ -186,7 +186,7 @@ En la segunda prueba se configuró el monitor con un límite inferior de alarma 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a62e5cfb-337f-47ab-8373-9b5b848c3dfa" />
 </div>
 
-Como se puede observar en las imágenes anteriores, en esta prueba la señal fotopletismográfica (PPG) se visualiza un poco más rápida en comparación con la prueba anterior, lo cual indica el aumento de la frecuencia cardíaca. Además, en la siguiente imagen se puede observar la activación de la alarma visual configurada de “SpO₂ < 90%”, lo cual es coherente, ya que el valor de saturación simulado fue de 85%.
+En las imágenes anteriores se aprecia que, en esta prueba, la señal fotopletismográfica se visualiza un poco más rápida en comparación con la prueba anterior, lo cual indica el aumento de la frecuencia cardíaca. Además, en la siguiente imagen se puede observar la activación de la alarma visual configurada de “SpO₂ < 90%”, lo cual es coherente, ya que el valor de saturación simulado fue de 85%.
 
 
 # REFERENCIAS
