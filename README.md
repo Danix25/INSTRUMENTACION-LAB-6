@@ -136,10 +136,10 @@ En esta parte B se muestran los resultados obtenidos tras seguir el paso a paso 
 
 | Prueba | Límite              | Valor Simulado bpm | Valor Simulado SpO2 | Valor Medido bpm | Valor Medido SpO2 | Alarma Activa | Tiempo de Respuesta (s) | Error Absoluto SpO2 | Error Absoluto bpm | Error Porcentual SpO2 | Error Porcentual bpm |
 |--------|----------------------|--------------------|---------------------|------------------|-------------------|----------------|--------------------------|----------------------|--------------------|------------------------|----------------------|
-| 1 |  | 40  | 95 | 40  | 96 | No |  | 1 | 0 | 1% | 0 |
-| 2 | Inferior SpO₂ = 90% | 80  | 85 | 80  | 85 | Sí | 4,3 | 0 | 0 | 0% | 0 |
+| 1 |  | 40  | 95 | 40  | 96 | No |  | 1 | 0 | 1% | 0% |
+| 2 | Inferior SpO₂ = 90% | 80  | 85 | 80  | 85 | Sí | 4,3 | 0 | 0 | 0% | 0% |
 | 3 | Superior SpO₂ = 97% |  | 99 |  | 99 | Sí | 3 | 0 |  | 0% |  |
-| 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 1 | 0 | 1% | 0 |
+| 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 1 | 0 | 1% | 0% |
 
 
 En la tabla anterior se muestran los valores simulados con el simulador de parámetros hemodinámicos Pronk OxSim OX-1 y los valores medidos con el monitor de signos vitales uMEC 100, así como también sus respectivos tiempos de respuesta y errores obtenidos. Posteriormente, se realizará una breve explicación de cada una de las pruebas, además de adjuntar las imágenes de evidencia correspondientes.
@@ -173,6 +173,14 @@ $$
 
 Además de esto, en la onda fotopletismográfica se puede observar que la señal se vuelve mucho más lenta, lo cual coincide con la baja frecuencia cardíaca simulada. También se evidenció la activación de la alarma “FP < 50”, indicando una frecuencia cardíaca baja. Es importante mencionar que este límite de alarma no fue configurado durante la práctica, sino que ya venía preestablecido en el equipo.
 
+## Prueba 2
+
+En la segunda prueba se configuró el monitor con un límite inferior de alarma de SpO₂ de 90%. Posteriormente, el simulador se ajustó a una frecuencia cardíaca de 80 bpm y una saturación de oxígeno de 85%. Luego, el equipo registró valores de 80 bpm y 85% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0.
+
+<div align="center">
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ac340bd9-fa18-4b33-925d-68e8ecc576e1" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/7ed02675-db92-4a95-8565-67b38f5004fd" />
+</div>
 
 # REFERENCIAS
 
