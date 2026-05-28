@@ -27,6 +27,11 @@ Algo muy importante de este equipo es el sistema de alarmas inteligente, contand
 
 El Pronk OxSim OX-1 es un analizador metrológico y simulador óptico miniaturizado de oximetría de pulso (SPO2, el cual está diseñado específicamente para la verificación funcional, el mantenimiento preventivo y la calibración de monitores de signos vitales en campo o laboratorio.
 
+<div align="center">
+<img width="471" height="621" alt="image" src="https://github.com/user-attachments/assets/72f40dd7-b815-4e4b-9b93-74ff39f12bfd" />
+</div>
+
+
 Este dispositivo cuenta con un bloque de prueba óptico permanente en forma de "dedo index", donde intercepta de manera activa los destellos de luz infrarroja por los LEDs del sensor del uMEC 100, procesa la señal electrónicamente para calcular la sincronía del pulso y devuelve los pulsos de luz controlador hacia el fotodetector del sensor para imitar la absorción de un tejido vivo.
 
 La tecnología que implementa el OX-1 es para identificar de manera automatica las caracteristicas ópticas del sensor que se le conecte (Masimo, Nellcor, Mindray, etc). Esto permite que ajuste autmáticamente las curvas de calibración de simulación interna para garantizar la máxima precisión sin necesidad de adaptadores externos. Además, su chasis de policarbonato de alta resistencia opera mediante una interfaz de usuario minimalista controlada por solo dos botones en el panel frontal: Botón de mode y botón de sensor
