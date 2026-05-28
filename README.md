@@ -42,6 +42,10 @@ La tecnología que implementa el OX-1 es para identificar de manera automatica l
 
 El modo "monitor" del uMEC 100 es el estado operativo por defecto del equipo al momento de encenderlo y dependiendo del estado previo en el que se encuentre el equipo en el laboratorio, se debe proceder de varias formas, tales como:
 
+<div align="center">
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/9f94c2df-a964-4763-9e7a-4e62a92ba332" />
+</div>
+
 1. Estado de apagado (inicio normal)
 
 Se debe presionar el botón físico de Encendido/apagado ubicado en la parte derecha inferior del equipo. Luego de esto, el indicador de encendido se iluminará, el monitor emitirá un sonido de autocomprobación y la pantalla mostrará de manera inmediata la interfaz de usuario principal con los espacios asignados para las ondas bioleéctricas, los valores numéricos de los parámetros y al momento de conectar los sensores, el monitor comenzará de manera automática la adquisición y análisis de señales en tiempo real.
