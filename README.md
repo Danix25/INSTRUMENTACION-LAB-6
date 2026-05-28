@@ -19,9 +19,9 @@ Este equipo procesa múltiples señales bioeléctricas y fisiológicas en tiempo
 
 Algo muy importante de este equipo es el sistema de alarmas inteligente, contando con un sistema de alarmas visuales y acústicas, las cuales son clasificadas en tres niveles de criticidad (alta, media y baja). Estas se dividen en:
 
-- /*Alarmas fisiológicas:*/ Cuando los parámetros del paciente se encuentran fuera de los límites programados, como bradicardia o desaturación.
+- *Alarmas fisiológicas:* Cuando los parámetros del paciente se encuentran fuera de los límites programados, como bradicardia o desaturación.
 
-- /*Alarmas técnicas:*/ Cuando hay fallas en el sistema, en cuanto a hardware, desconexión de sensores o interferencias en la señal.
+- *Alarmas técnicas:* Cuando hay fallas en el sistema, en cuanto a hardware, desconexión de sensores o interferencias en la señal.
 
 ## Simulador de parámetros hemodinámicos Pronk OxSim OX-1
 
