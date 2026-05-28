@@ -153,33 +153,23 @@ Inicialmente, en la primera prueba se configuró el simulador Pronk OxSim OX-1 p
 
 Posteriormente, se verificaron en el monitor uMEC 100 los valores mostrados y se compararon con los valores simulados para calcular el error absoluto y porcentual de cada variable.
 
-<div align="center">
+$$
+\text{Error absoluto SpO}_2 = |95 - 96| = 1
+$$
 
-Error absoluto SpO₂:
+$$
+\text{Error porcentual SpO}_2 =
+\frac{|95 - 96|}{95}\times100 = 1{,}05\%
+$$
 
-\[
-|95 - 96| = 1
-\]
+$$
+\text{Error absoluto bpm} = |40 - 40| = 0
+$$
 
-Error porcentual SpO₂:
-
-\[
-\frac{|95 - 96|}{95} \times 100 = 1,05\%
-\]
-
-Error absoluto bpm:
-
-\[
-|40 - 40| = 0
-\]
-
-Error porcentual bpm:
-
-\[
-\frac{|40 - 40|}{40} \times 100 = 0\%
-\]
-
-</div>
+$$
+\text{Error porcentual bpm} =
+\frac{|40 - 40|}{40}\times100 = 0\%
+$$
 
 # REFERENCIAS
 
