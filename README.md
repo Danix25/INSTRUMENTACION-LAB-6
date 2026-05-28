@@ -35,3 +35,27 @@ El Pronk OxSim OX-1 es un analizador metrológico y simulador óptico miniaturiz
 Este dispositivo cuenta con un bloque de prueba óptico permanente en forma de "dedo index", donde intercepta de manera activa los destellos de luz infrarroja por los LEDs del sensor del uMEC 100, procesa la señal electrónicamente para calcular la sincronía del pulso y devuelve los pulsos de luz controlador hacia el fotodetector del sensor para imitar la absorción de un tejido vivo.
 
 La tecnología que implementa el OX-1 es para identificar de manera automatica las caracteristicas ópticas del sensor que se le conecte (Masimo, Nellcor, Mindray, etc). Esto permite que ajuste autmáticamente las curvas de calibración de simulación interna para garantizar la máxima precisión sin necesidad de adaptadores externos. Además, su chasis de policarbonato de alta resistencia opera mediante una interfaz de usuario minimalista controlada por solo dos botones en el panel frontal: Botón de mode y botón de sensor, los cuales permiten alternar diferentes modos de simulación fisiológica/patológica.
+
+# PARTE A
+
+## Colocación del uMEC 100 en modo "monitor"
+
+El modo "monitor" del uMEC 100 es el estado operativo por defecto del equipo al momento de encenderlo y dependiendo del estado previo en el que se encuentre el equipo en el lbaoratorio, se debe proceder de varias formas, tales como:
+
+1. Estado de apagado (inicio normal)
+
+Se debe presionar el botón físico de Encendido/apagado ubicado en la parte derecha inferior del equipo. Luego de esto, el indicador de encendido se iluminará, el monitor emitirá un sonido de autocomprobación y la pantalla mostrará de manera inmediata la interfaz de usuario principal con los espacios asignados para las ondas bioleéctricas, los valores numéricos de los parámetros y al momento de conectar los sensores, el monitor comenzará de manera automática la adquisición y análisis de señales en tiempo real.
+
+3. Estado de espera (Sandby)
+
+El modo de espera se utiliza para pausar la monitorización sin apagar el equipo. Aquí la pantalla estará apagada pero el indicador de energía seguirá activo. Para retornarlo a modo monitor, se debe girar la perilla de navegación o presionar cualquier tecla física del panel frontal y así el monitor daldrá inmediatamente del estado de espera y regresará de forma directa a la pantalla principal.
+
+5. Estado de demostración (Demo)
+
+En caso de que el monitor esté mostrando ondas simuladas pregrabadas (marcadas con la palabra DEMO en pantalla), se debe seguir el siguiente procedimiento:
+
+- Presionar la tecla física del menú principal
+- Seleccionar la opción de mantenimiento o configuración de sistema
+- Seleccionar la sección de mantenimiento de usuario e introducir la contraseña de fábrica del sistema uMEC 100.
+- En el menú desplegado, buscar la opción de "Modo Demo" y cambiar su estado a "Desactivar"
+
