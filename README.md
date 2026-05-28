@@ -117,7 +117,7 @@ Esto quiere decir que si el simulador entrega una frecuencia de 40 bpm, el monit
 
 3. Índice de perfusión tisular (mmodo de baja perfusión)
 
-A nivel metrológico, la tolerancia ante condiciones de baja perfusión no se evalúa como un error numérico, sino como la capacidad del equipo para mantener la exactitud de los otros dos parámetros bajo estados de señal degradada, por lo cual su tolerancia en baja perfusión se mantiene en $\pm$2% para el SPO2 y la frecuencia de pulso.
+A nivel metrológico, la tolerancia ante condiciones de baja perfusión no se evalúa como un error numérico, sino como la capacidad del equipo para mantener la exactitud de los otros dos parámetros bajo estados de señal degradada, por lo cual su tolerancia en baja perfusión se mantiene en $\pm$ 2% para el SPO2 y la frecuencia de pulso.
 
 Para un monitor como el uMEC 100 se garantiza que, a pesar que el simulador Pronk reduzca drasticamente la amplitud de la onda pulsatil para imitar un choque hemodinámico, los algoritmos internos de filtrado digital aislarán el ruido lo suficienteme bien como para no comprometer ni inflar el error de diganóstico.
 
