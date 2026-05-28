@@ -62,3 +62,27 @@ En caso de que el monitor esté mostrando ondas simuladas pregrabadas (marcadas 
 - Seleccionar la sección de mantenimiento de usuario e introducir la contraseña de fábrica del sistema uMEC 100.
 - En el menú desplegado, buscar la opción de "Modo Demo" y cambiar su estado a "Desactivar"
 
+## Parámetros y variables fisiológicas simuladas con el Pronk OxSim OX-1
+
+El OxSim OX-1 posee un bloque óptico activo (dedo de prueba) y a través de él es capaz de simular tres parámetros o variables fisiológicas controlando la atenuación de la luz en tiempo real.
+
+
+<div align="center">
+<img width="505" height="755" alt="image" src="https://github.com/user-attachments/assets/97dbf281-c784-4b6c-bc19-c21062692e8f" />
+</div>
+
+
+1. Saturación Periférica de Oxigeno (SPO2)
+
+Esta variable simula el porcentaje de hemoglobina que se encuentra unida de forma reversible al oxígeno en la sangre arterial del paciente, basado en la relación de absorción de luz roja (660 nm) e infrarroja (940 nm) a través del tejido hidratado. Aquí el simulador toma las dos longitudes de onda emitidas por el sensor del monitor de signos vitales y altera electrónicamente la cantidad de luz que devuelve al fotodetector del sensor, permitiendo simular valores de saturación fijos y precisos para evaluar alarma de hipoxia y la exactitud del monitor. Los puntos de simulación del OX-1 son 85%, 95%, 98% y 99%
+
+2. Frecuencia de pulso (PR)/ frecuencia cardíaca (HR)
+
+..
+
+3. Índice de perfusión tisular (Modo de baja perfusión)
+
+..
+
+¿Qué tipo de parámetros o variables fisiológicas pueden simularse con el
+Pronk OxSim OX-1? Explique cada uno.
