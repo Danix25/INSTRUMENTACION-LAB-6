@@ -148,7 +148,7 @@ En la tabla anterior se muestran los valores simulados con el simulador de pará
 Inicialmente, en la primera prueba se configuró el simulador Pronk OxSim OX-1 para representar un paciente con bradicardia, estableciendo una frecuencia cardíaca de 40 bpm y una saturación de oxígeno de 95%.
 
 <div align="center">
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/882b0e4b-c188-492a-ace1-002bd6dece8b" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/882b0e4b-c188-492a-ace1-002bd6dece8b" />
 </div>
 
 Posteriormente, se verificaron en el monitor uMEC 100 los valores mostrados y se compararon con los valores simulados para calcular el error absoluto y porcentual de cada variable.
