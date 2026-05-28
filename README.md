@@ -141,6 +141,16 @@ En esta parte B se muestran los resultados obtenidos tras seguir el paso a paso 
 | 3 | Superior SpO₂ = 97% |  | 99 |  | 99 | Sí | 3 | 0 |  | 0% |  |
 | 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 1 | 0 | 1% | 0 |
 
+
+En la tabla anterior se muestran los valores simulados con el simulador de parámetros hemodinámicos Pronk OxSim OX-1 y los valores medidos con el monitor de signos vitales uMEC 100, así como también sus respectivos tiempos de respuesta y errores obtenidos. Posteriormente, se realizará una breve explicación de cada una de las pruebas, además de adjuntar las imágenes de evidencia correspondientes.
+
+## Prueba 1
+Inicialmente, en la primera prueba se configuró el simulador Pronk OxSim OX-1 para representar un paciente con bradicardia, estableciendo una frecuencia cardíaca de 40 bpm y una saturación de oxígeno de 95%.
+
+<div align="center">
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/882b0e4b-c188-492a-ace1-002bd6dece8b" />
+</div>
+
 # REFERENCIAS
 
 [1]	Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC 60/uMEC 70/uMEC 80/uMEC 100/uMEC 120/uMEC 150 Patient Monitor Operator's Manual, rev. 2.0, P/N 046-026551-00(2.0), Shenzhen, China, 2023.
