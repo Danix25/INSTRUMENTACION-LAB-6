@@ -178,8 +178,8 @@ Además de esto, en la onda fotopletismográfica se puede observar que la señal
 En la segunda prueba se configuró el monitor con un límite inferior de alarma de SpO₂ de 90%. Posteriormente, el simulador se ajustó a una frecuencia cardíaca de 80 bpm y una saturación de oxígeno de 85%. Luego, el equipo registró valores de 80 bpm y 85% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0.
 
 <div align="center">
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/ac340bd9-fa18-4b33-925d-68e8ecc576e1" />
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/7ed02675-db92-4a95-8565-67b38f5004fd" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/ac340bd9-fa18-4b33-925d-68e8ecc576e1" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/7ed02675-db92-4a95-8565-67b38f5004fd" />
 </div>
 
 # REFERENCIAS
