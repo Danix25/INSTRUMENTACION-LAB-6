@@ -40,7 +40,7 @@ La tecnología que implementa el OX-1 es para identificar de manera automatica l
 
 ## Colocación del uMEC 100 en modo "monitor"
 
-El modo "monitor" del uMEC 100 es el estado operativo por defecto del equipo al momento de encenderlo y dependiendo del estado previo en el que se encuentre el equipo en el lbaoratorio, se debe proceder de varias formas, tales como:
+El modo "monitor" del uMEC 100 es el estado operativo por defecto del equipo al momento de encenderlo y dependiendo del estado previo en el que se encuentre el equipo en el laboratorio, se debe proceder de varias formas, tales como:
 
 1. Estado de apagado (inicio normal)
 
