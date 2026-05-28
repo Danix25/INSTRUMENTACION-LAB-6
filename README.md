@@ -1,1 +1,1 @@
-# INSTRUMENTACION-LAB-6
+# Simulación y Monitoreo de Variables Cardiovasculares y Hemodinámicas
