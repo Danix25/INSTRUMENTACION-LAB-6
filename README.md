@@ -131,6 +131,9 @@ Desde el punto de vista metrológico, la tolerancia en condiciones de baja perfu
 
 En el caso del Mindray uMEC 100, se garantiza que, aun cuando el Pronk OxSim OX-1 reduzca drásticamente la amplitud de la onda pulsátil con el fin de simular un estado de choque hemodinámico, los algoritmos internos de filtrado digital serán capaces de aislar el ruido de manera eficiente, evitando comprometer o incrementar el error diagnóstico del sistema.
 
+# PARTE B
+
+
 # REFERENCIAS
 
 [1]	Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC 60/uMEC 70/uMEC 80/uMEC 100/uMEC 120/uMEC 150 Patient Monitor Operator's Manual, rev. 2.0, P/N 046-026551-00(2.0), Shenzhen, China, 2023.
