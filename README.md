@@ -101,10 +101,23 @@ El parámetro del índice de perfusión es la relación entre el componente puls
 Para poder obtener los errores máximos permitidos del equipo, se deben verificar las especificaciones técnicas del fabricante. Al contrastar las normas internacionales de la industría médica (ISO 80601-2-61 para oximetría de pulso) con los valores de diseño declarados en las epecificaciones de medición del manual de usuario del monitor de la serie uMEC, se definen los siguientes errores permitidos:
 
 1. Saturación Periférica de Oxigeno (SPO2): El error máximo permitido (EMP) para la saturación de oxígeno varía segun el tipo de tecnología integrada en el sensor configurado y el grupo aterio del paciente. De acuerdo al manual de Mindray menciona los siguientes (EMP) en el rango útil del 70% al 100%:
-- Pacientes adultos y pediátricos: **$\pm$ 2%**
 
+- Pacientes adultos y pediátricos: **$\pm$2%**
+- Pacientes Neonatales: **$\pm$3%**
 
+Es importante mencionar que el fabricante menciona que para valores inferiores al 70%, declara la exactitud como "No especificada", lo que a nivel clínico se debe a que no está permitido por comités de ética médica someter a pacientes humanos a niveles de hipoxia tan extremos para calibrar o validar de forma absoluta las curvas ópticas.
 
-En el ámbito clínico ¿Cuáles son las tolerancias o errores máximos
-permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
-(b)?
+2. Frecuencia de pulso
+
+Las toelrancias de diseño electrónico del monitor de signos vitales establecen un margen sumamente estricto para este parámetros hemodinámico.
+
+- Error Máximo Permitido: **$\pm$2bpm** o **$\pm$2%**
+
+Esto quiere decir que si el simulador entrega una frecuencia de 40 bpm, el monitor puede mostrar valores entre 38 y 42 bpm. Si simula una taquicardia de 140 bpm, el 2% equivale a $\pm$2.8bpm, por lo que si el monitor se encuentra dentro de la tolerancia va a registrar valores entre 137 y 143 bpm.
+
+3. Índice de perfusión tisular (mmodo de baja perfusión)
+
+A nivel metrológico, la tolerancia ante condiciones de baja perfusión no se evalúa como un error numérico, sino como la capacidad del equipo para mantener la exactitud de los otros dos parámetros bajo estados de señal degradada, por lo cual su tolerancia en baja perfusión se mantiene en $\pm$2% para el SPO2 y la frecuencia de pulso.
+
+Para un monitor como el uMEC 100 se garantiza que, a pesar que el simulador Pronk reduzca drasticamente la amplitud de la onda pulsatil para imitar un choque hemodinámico, los algoritmos internos de filtrado digital aislarán el ruido lo suficienteme bien como para no comprometer ni inflar el error de diganóstico.
+
