@@ -96,6 +96,15 @@ El parámetro del índice de perfusión es la relación entre el componente puls
 <img width="445" height="273" alt="image" src="https://github.com/user-attachments/assets/d63cff13-c441-43cc-aac2-1129d9b3db63" />
 </div>
 
+## Tolerancias o errores permitidos para cada parámetro
 
-¿Qué tipo de parámetros o variables fisiológicas pueden simularse con el
-Pronk OxSim OX-1? Explique cada uno.
+Para poder obtener los errores máximos permitidos del equipo, se deben verificar las especificaciones técnicas del fabricante. Al contrastar las normas internacionales de la industría médica (ISO 80601-2-61 para oximetría de pulso) con los valores de diseño declarados en las epecificaciones de medición del manual de usuario del monitor de la serie uMEC, se definen los siguientes errores permitidos:
+
+1. Saturación Periférica de Oxigeno (SPO2): El error máximo permitido (EMP) para la saturación de oxígeno varía segun el tipo de tecnología integrada en el sensor configurado y el grupo aterio del paciente. De acuerdo al manual de Mindray menciona los siguientes (EMP) en el rango útil del 70% al 100%:
+- Pacientes adultos y pediátricos: **$\pm$ 2%**
+
+
+
+En el ámbito clínico ¿Cuáles son las tolerancias o errores máximos
+permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
+(b)?
