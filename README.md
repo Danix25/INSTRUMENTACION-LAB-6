@@ -131,3 +131,10 @@ Desde el punto de vista metrológico, la tolerancia en condiciones de baja perfu
 
 En el caso del Mindray uMEC 100, se garantiza que, aun cuando el Pronk OxSim OX-1 reduzca drásticamente la amplitud de la onda pulsátil con el fin de simular un estado de choque hemodinámico, los algoritmos internos de filtrado digital serán capaces de aislar el ruido de manera eficiente, evitando comprometer o incrementar el error diagnóstico del sistema.
 
+# REFERENCIAS
+
+[1]	Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC 60/uMEC 70/uMEC 80/uMEC 100/uMEC 120/uMEC 150 Patient Monitor Operator's Manual, rev. 2.0, P/N 046-026551-00(2.0), Shenzhen, China, 2023.
+[2]	Pronk Technologies, "OxSim OX-1 Optical SpO2 Pulse Oximeter Tester," pronktech.com. https://www.pronktech.com/product/ox-1-oxsim-miniaturized-optical-spo2-pulse-oximeter-tester/ (accedido el 28 de mayo, 2026).
+[3]	Medical Electrical Equipment - Part 2-61: Particular Requirements for Basic Safety and Essential Performance of Pulse Oximeter Equipment, ISO Standard 80601-2-61:2017(E), 2017.
+
+
