@@ -68,7 +68,7 @@ El OxSim OX-1 posee un bloque óptico activo (dedo de prueba) y a través de él
 
 
 <div align="center">
-<img width="505" height="755" alt="image" src="https://github.com/user-attachments/assets/97dbf281-c784-4b6c-bc19-c21062692e8f" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/97dbf281-c784-4b6c-bc19-c21062692e8f" />
 </div>
 
 
