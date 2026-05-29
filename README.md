@@ -139,7 +139,7 @@ En esta parte B se muestran los resultados obtenidos tras seguir el paso a paso 
 | 1 |  | 40  | 95 | 40  | 96 | No |  | 1 | 0 | 1% | 0% |
 | 2 | Inferior SpO₂ = 90% | 80  | 85 | 80  | 85 | Sí | 4,3 | 0 | 0 | 0% | 0% |
 | 3 | Superior SpO₂ = 97% |  | 99 |  | 100 | Sí | 3 | 1 |  | 1% |  |
-| 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 1 | 0 | 1% | 0% |
+| 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 0 | 0 | 0% | 0% |
 
 
 En la tabla anterior se muestran los valores simulados con el simulador de parámetros hemodinámicos Pronk OxSim OX-1 y los valores medidos con el monitor de signos vitales uMEC 100, así como también sus respectivos tiempos de respuesta y errores obtenidos. Posteriormente, se realizará una breve explicación de cada una de las pruebas, además de adjuntar las imágenes de evidencia correspondientes.
@@ -203,6 +203,13 @@ En las imágenes anteriores, la primera corresponde a los valores registrados po
 
 Por esta razón, se recurrió a una imagen obtenida durante la prueba 4, la cual se describirá posteriormente. En dicha prueba, la saturación simulada fue de 98%, valor que también supera el límite de alarma establecido de 97%, permitiendo evidenciar el correcto funcionamiento y la activación visual de la alarma configurada.
 
+## Prueba 4
+
+En la cuarta y última prueba se configuró el simulador para generar una taquicardia, estableciendo una frecuencia cardíaca de 140 bpm y una saturación de oxígeno de 98%. En este caso, el monitor registró valores de 140 bpm y 98% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0, como se observa en la tabla.
+
+<div align="center">
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/fe477e8b-297d-4df0-85f2-d2e04744fe7d" />
+</div>
 
 
 # REFERENCIAS
