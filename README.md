@@ -195,8 +195,8 @@ En la tercera prueba se configuró el monitor con un límite superior de alarma 
 De acuerdo con los resultados obtenidos, el monitor registró una saturación de oxígeno de 100%, mientras que el valor simulado fue de 99%. Esto generó un error absoluto de 1 y un error porcentual aproximado de 1%, como se muestra en la tabla.
 
 <div align="center">
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/71c6551c-1683-423e-9e33-a5ae8a8004d6" />
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/42cf0535-0262-49fd-aaf0-ff2478156653" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/71c6551c-1683-423e-9e33-a5ae8a8004d6" />
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/42cf0535-0262-49fd-aaf0-ff2478156653" />
 </div>
 
 En las imágenes anteriores, la primera corresponde a los valores registrados por el monitor durante la simulación, donde se puede observar una saturación de oxígeno de 100%. Respecto a la evidencia de la alarma visual configurada para esta prueba, lamentablemente no se tomó una fotografía en el momento de su activación.
