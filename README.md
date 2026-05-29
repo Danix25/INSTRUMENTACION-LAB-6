@@ -212,7 +212,7 @@ En la cuarta y última prueba se configuró el simulador para generar una taquic
 </div>
 
 
-Finalmente, como se aprecia en la imagen, se evidencia la activación de la alarma de frecuencia cardíaca elevada. En este caso, el equipo no tenía configurado un límite superior de frecuencia cardíaca para generar la alarma, por lo que se estableció un valor de 120 bpm con el fin de verificar su correcto funcionamiento. Dado que la frecuencia simulada fue de 140 bpm, la alarma se activó de manera adecuada.
+Finalmente, como se aprecia en la imagen, se evidencia la activación de la alarma por frecuencia cardíaca elevada. El equipo estaba configurado con un límite superior de 140 bpm, pero como el simulador no permitía superar ese valor, se ajustó el umbral a 120 bpm para poder comprobar su funcionamiento. Con este cambio, se verificó que la alarma responde correctamente, ya que al simular una frecuencia de 140 bpm, esta se activó de manera adecuada.
 
 Además, se puede ver que la señal fotopletismográfica va tomando una forma cada vez más parecida a una onda senoidal. Esto pasa porque a esta frecuencia tan alta los latidos o pulsos ocurren muy seguidos entre sí, casi sin tiempo de separación. Por esta razón, ya no es fácil distinguir detalles característicos de la señal como el nodo dicrótico o la forma típica que normalmente se observa en condiciones de más baja frecuencia.
 
