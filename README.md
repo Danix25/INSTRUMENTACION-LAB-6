@@ -2,7 +2,7 @@
 
 Samuel Joel Peña Rojas
 
-Paula Vanessa Vera Caro
+Vanessa Vera Caro
 
 Daniel Leonardo López Castillo
 
