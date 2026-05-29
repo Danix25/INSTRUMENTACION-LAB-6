@@ -138,7 +138,7 @@ En esta parte B se muestran los resultados obtenidos tras seguir el paso a paso 
 |--------|----------------------|--------------------|---------------------|------------------|-------------------|----------------|--------------------------|----------------------|--------------------|------------------------|----------------------|
 | 1 |  | 40  | 95 | 40  | 96 | No |  | 1 | 0 | 1% | 0% |
 | 2 | Inferior SpO₂ = 90% | 80  | 85 | 80  | 85 | Sí | 4,3 | 0 | 0 | 0% | 0% |
-| 3 | Superior SpO₂ = 97% |  | 99 |  | 99 | Sí | 3 | 0 |  | 0% |  |
+| 3 | Superior SpO₂ = 97% |  | 99 |  | 100 | Sí | 3 | 1 |  | 1% |  |
 | 4 |  | 140 | 98 | 140 | 99 | Sí | 4,6 | 1 | 0 | 1% | 0% |
 
 
@@ -187,6 +187,22 @@ En la segunda prueba se configuró el monitor con un límite inferior de alarma 
 </div>
 
 En las imágenes anteriores se aprecia que, en esta prueba, la señal fotopletismográfica se visualiza un poco más rápida en comparación con la prueba anterior, lo cual indica el aumento de la frecuencia cardíaca. Además, en la siguiente imagen se puede observar la activación de la alarma visual configurada de “SpO₂ < 90%”, lo cual es coherente, ya que el valor de saturación simulado fue de 85%.
+
+## Prueba 3
+
+En la tercera prueba se configuró el monitor con un límite superior de alarma de SpO₂ de 97%. Posteriormente, el simulador se ajustó a una saturación de oxígeno de 99% en modo *Low Perfusion*. Se verificó la activación de la alarma visual del monitor y se registraron los valores mostrados por el equipo para calcular los errores absoluto y porcentual.
+
+De acuerdo con los resultados obtenidos, el monitor registró una saturación de oxígeno de 100%, mientras que el valor simulado fue de 99%. Esto generó un error absoluto de 1 y un error porcentual aproximado de 1%, como se muestra en la tabla.
+
+<div align="center">
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/71c6551c-1683-423e-9e33-a5ae8a8004d6" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/42cf0535-0262-49fd-aaf0-ff2478156653" />
+</div>
+
+En las imágenes anteriores, la primera corresponde a los valores registrados por el monitor durante la simulación, donde se puede observar una saturación de oxígeno de 100%. Respecto a la evidencia de la alarma visual configurada para esta prueba, lamentablemente no se tomó una fotografía en el momento de su activación.
+
+Por esta razón, se recurrió a una imagen obtenida durante la prueba 4, la cual se describirá posteriormente. En dicha prueba, la saturación simulada fue de 98%, valor que también supera el límite de alarma establecido de 97%, permitiendo evidenciar el correcto funcionamiento y la activación visual de la alarma configurada.
+
 
 
 # REFERENCIAS
