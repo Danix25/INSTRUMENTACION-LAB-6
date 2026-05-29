@@ -228,6 +228,13 @@ En condiciones de mala perfusión, el flujo sanguíneo en la zona de medición d
 
 Como resultado, el monitor puede interpretar de forma incorrect la señal y mostrar valores de SpO₂ más bajos de lo real, generando una falsa alarma de desaturación aunque la oxigenación del paciente no esté realmente comprometida.
 
+## Conclusión
+
+Finalmente, se logró utilizar de manera correcta tanto el simulador Pronk OxSim OX-1 como el monitor de signos vitales uMEC 100, permitiendo comprender su funcionamiento conjunto en la simulación de variables hemodinámicas. A través de las diferents pruebas realizadas, se evidenció que el sistema responde adecuadamente a cambios en frecuencia cardíaca, saturación de oxígeno y condiciones de perfusión, así como la correcta activación de las alarmas configuradas.
+
+Además, se verificó la precisión del equipo al comparar los valores simulados con los medidos, obteniendo errores dentro de los rangos permitidos según la normativa. En general, la práctica permitió reforzar el uso adecuado del simulador y del monitor, así como la interpretación de señales fisiológicas en un entorno controlado.
+
+
 # REFERENCIAS
 
 [1]	Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC 60/uMEC 70/uMEC 80/uMEC 100/uMEC 120/uMEC 150 Patient Monitor Operator's Manual, rev. 2.0, P/N 046-026551-00(2.0), Shenzhen, China, 2023.
