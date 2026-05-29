@@ -205,7 +205,7 @@ Por esta razón, se recurrió a una imagen obtenida durante la prueba 4, la cual
 
 ## Prueba 4
 
-En la cuarta y última prueba se configuró el simulador para generar una taquicardia, estableciendo una frecuencia cardíaca de 140 bpm y una saturación de oxígeno de 98%. En este caso, el monitor registró valores de 140 bpm y 98% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0, como se observa en la tabla.
+En la cuarta y última prueba se configuró el simulador para generar una taquicarda, estableciendo una frecuencia cardíaca de 140 bpm y una saturación de oxígeno de 98%. En este caso, el monitor registró valores de 140 bpm y 98% respectivamente, por lo que tanto el error absoluto como el error porcentual fueron iguales a 0, como se observa en la tabla.
 
 <div align="center">
 <img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/fe477e8b-297d-4df0-85f2-d2e04744fe7d" />
@@ -226,11 +226,11 @@ El Pronk OxSim OX-1 simula la onda pulsátil mediante un principio de interacci�
 
 En condiciones de mala perfusión, el flujo sanguíneo en la zona de medición disminuye, lo que debilita la señal pulsátil utilizada por el pulsioxímetro para calcular la saturación de oxígeno. Esto dificulta que el equipo distinga correctamente la señal arterial del ruido o de otras componentes no pulsátiles.
 
-Como resultado, el monitor puede interpretar de forma incorrecta la señal y mostrar valores de SpO₂ más bajos de lo real, generando una falsa alarma de desaturación aunque la oxigenación del paciente no esté realmente comprometida.
+Como resultado, el monitor puede interpretar de forma incorrect la señal y mostrar valores de SpO₂ más bajos de lo real, generando una falsa alarma de desaturación aunque la oxigenación del paciente no esté realmente comprometida.
 
 ## Conclusión
 
-Finalmente, se logró utilizar de manera correcta tanto el simulador Pronk OxSim OX-1 como el monitor de signos vitales uMEC 100, permitiendo comprender su funcionamiento conjunto en la simulación de variables hemodinámicas. A través de las diferentes pruebas realizadas, se evidenció que el sistema responde adecuadamente a cambios en frecuencia cardíaca, saturación de oxígeno y condiciones de perfusión, así como la correcta activación de las alarmas configuradas.
+Finalmente, se logró utilizar de manera correcta tanto el simulador Pronk OxSim OX-1 como el monitor de signos vitales uMEC 100, permitiendo comprender su funcionamiento conjunto en la simulación de variables hemodinámicas. A través de las diferents pruebas realizadas, se evidenció que el sistema responde adecuadamente a cambios en frecuencia cardíaca, saturación de oxígeno y condiciones de perfusión, así como la correcta activación de las alarmas configuradas.
 
 Además, se verificó la precisión del equipo al comparar los valores simulados con los medidos, obteniendo errores dentro de los rangos permitidos según la normativa. En general, la práctica permitió reforzar el uso adecuado del simulador y del monitor, así como la interpretación de señales fisiológicas en un entorno controlado.
 
