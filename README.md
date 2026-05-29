@@ -182,11 +182,11 @@ En la segunda prueba se configuró el monitor con un límite inferior de alarma 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/7ed02675-db92-4a95-8565-67b38f5004fd" />
 </div>
 
+En las imágenes anteriores se aprecia que, en esta prueba, la señal fotopletismográfica se visualiza un poco más rápida en comparación con la prueba anterior, lo cual indica el aumento de la frecuencia cardíaca. Además, en la siguiente imagen se puede observar la activación de la alarma visual configurada de “SpO₂ < 90%”, lo cual es coherente, ya que el valor de saturación simulado fue de 85%.
+
 <div align="center">
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a62e5cfb-337f-47ab-8373-9b5b848c3dfa" />
 </div>
-
-En las imágenes anteriores se aprecia que, en esta prueba, la señal fotopletismográfica se visualiza un poco más rápida en comparación con la prueba anterior, lo cual indica el aumento de la frecuencia cardíaca. Además, en la siguiente imagen se puede observar la activación de la alarma visual configurada de “SpO₂ < 90%”, lo cual es coherente, ya que el valor de saturación simulado fue de 85%.
 
 ## Prueba 3
 
